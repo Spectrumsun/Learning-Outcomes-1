@@ -1,12 +1,10 @@
-const words = (input) => {
+const words = (inputs) => {
+	const input = inputs.toLowerCase();
 
-	if(input ===  'string'){
-		return  "it should be string";
-	}
-
-
-
-	const divide = input.split(' ');
+	if(input.length <= 0){
+		return  "empty string not allowed";
+	}else {
+		const divide = input.split(' ');
 	const result = {};
 	for(let i = 0; i < divide.length; i++) {
 		if(!result[divide[i]]) {
@@ -18,8 +16,13 @@ const words = (input) => {
 }
 
 
+	}
 
+
+export default words	
+
+/*
+console.log(words(""))*/
 	
 
 
-export default words;

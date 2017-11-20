@@ -4,7 +4,7 @@
   "description": "",
   "main": "word.js",
   "scripts": {
-    "start": "node word.js",
+    "start": "",
     "test": " mocha --require babel-register"
   },
   "repository": {
