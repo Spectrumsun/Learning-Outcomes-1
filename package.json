@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Spectrumsun/Learning-Outcomes-1.git"
+    "url": "git+https://github.com/Spectrumsun/Learning-Outcomes-2.git"
   },
   "author": "taiwo sunday",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Spectrumsun/Learning-Outcomes-1/issues"
+    "url": "https://github.com/Spectrumsun/Learning-Outcomes-2/issues"
   },
-  "homepage": "https://github.com/Spectrumsun/Learning-Outcomes-1#readme",
+  "homepage": "https://github.com/Spectrumsun/Learning-Outcomes-2#readme",
   "devDependencies": {
     "babel-register": "^6.26.0",
     "chai": "^4.1.2",
